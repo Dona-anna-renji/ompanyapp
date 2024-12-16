@@ -1,0 +1,130 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#40407a"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="ADD EMPLOYEE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Employee code"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:id="@+id/addempcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the employee code"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:textStyle="italic"
+        android:id="@+id/addempname"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name "
+        android:layout_margin="10dp"/>
+    <TextView
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Designation"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/addempdesg"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the designation"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Email id"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/addempmail"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the emailid"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Salary"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/addsalary"
+        android:inputType="number"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the salary"
+        android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:id="@+id/AddSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SUBMIT"
+        android:textColor="@color/black"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:id="@+id/AddLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="BACK TO MENU"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
